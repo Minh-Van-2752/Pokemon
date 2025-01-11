@@ -1,0 +1,145 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  #ipt{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  #search{
+    position: absolute;
+    top: 20px;
+    transform: translateX(120px);
+    cursor: pointer;
+  }
+  
+  #container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  #pikachu{
+    border-radius: 5px;
+    box-shadow: 0 2px 15px 3px rgba(0,0,0,0.1);
+    width: 200px;
+    padding: 10px 20px 20px 20px;
+    cursor: pointer;
+  
+  }
+  
+  #pikachuPt{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+  
+  p{
+    margin: 7px;
+  }
+  
+  #charmander{
+    border-radius: 5px;
+    box-shadow: 0 2px 15px 3px rgba(0,0,0,0.1);
+    width: 200px;
+    padding: 10px 20px 20px 20px;
+    cursor: pointer;
+  }
+  
+  #charmanderPt{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+  
+  #squirtle{
+    border-radius: 5px;
+    box-shadow: 0 2px 15px 2px rgba(0,0,0,0.1);
+    width: 200px;
+    padding: 10px 20px 20px 20px;
+    cursor: pointer;
+  }
+  
+  #squirtlePt{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+  
+  #bulbasaur{
+    border-radius: 5px;
+    box-shadow: 0 2px 15px 2px rgba(0,0,0,0.1);
+    width: 200px;
+    padding: 10px 20px 20px 20px;
+    cursor: pointer;
+  }
+  
+  #bulbasaurPt{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+  
+  #pichu{
+    border-radius: 5px;
+    box-shadow: 0 2px 15px 3px rgba(0,0,0,0.1);
+    width: 200px;
+    padding: 10px 20px 20px 20px;
+    cursor: pointer;
+  }
+  
+  #pichuPt{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+  
+  #raichu{
+    border-radius: 5px;
+    box-shadow: 0 2px 15px 3px rgba(0,0,0,0.1);
+    width: 200px;
+    padding: 10px 20px 20px 20px;
+    cursor: pointer;
+  }
+  
+  #raichuPt{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+
+  #ivysaur{
+    border-radius: 5px;
+    box-shadow: 0 2px 15px 3px rgba(0,0,0,0.1);
+    width: 200px;
+    padding: 10px 20px 20px 20px;
+    cursor: pointer;
+  }
+  
+  #ivysaurPt{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+  
+  .show{
+    display: block;
+  }
+  
+  .hide{
+    display: none;
+  }
